@@ -9,20 +9,24 @@
         "GoogleScholar": "https://scholar.google.com/citations?user=X2PTrgoAAAAJ&hl=en"
     },
     "about": {
-        "year": "7th-year",
-        "department": {
-            "name": "Gryffindor",
-            "link": "https://harrypotter.fandom.com/wiki/Gryffindor"
+        
+        "university": {
+            "name": "KTH Royal Institute of Technology",
+            "link": "https://www.kth.se/en"
         },
-        "college": {
-            "name": "Hogwarts School of Witchcraft and Wizardry",
-            "link": "https://harrypotter.fandom.com/wiki/Hogwarts_School_of_Witchcraft_and_Wizardry"
+        "PhdSupervisor1": {
+            "name": "Musard Balliu",
+            "link": "https://people.kth.se/~musard/"
         },
-        "advisor": {
-            "name": "Albus Dumbledor",
-            "link": "https://harrypotter.fandom.com/wiki/Albus_Dumbledore"
+        "PhdSupervisor2": {
+            "name": "Roberto Guanciale",
+            "link": "https://www.kth.se/profile/robertog"
         },
-        "email": "harrypotter AT MyUniversity",
+        "MasterSupervisor1": {
+            "name": "Morteza Amini",
+            "link": "https://sharif.edu/~amini/"
+        },
+        "email": "moazen@kth.se",
         "interest": "Defense against Dark Arts Spell; Dark Creatures"
     },
     "love": "https://harrypotter.fandom.com/wiki/James_and_Lily_Potter",
