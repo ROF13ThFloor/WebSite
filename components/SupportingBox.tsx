@@ -15,7 +15,7 @@ const Box = ({href, label, onClick, children}: BoxProps) => (
         rel="noopener noreferrer"
         href={href}
         aria-label={label}
-        className="items-center justify-center cursor-pointer transition-colors rounded-md select-none w-7 h-7"
+        className="items-center justify-center cursor-pointer transition-transform transform hover:scale-110 hover:bg-gray-200 rounded-md w-10 h-10"
         onClick={onClick}>
         {children}
     </a>
@@ -27,9 +27,6 @@ const SupportingBox = (): JSX.Element => {
             <div className="flex justify-between w-44">
                 <Box href="/cv.pdf" label="CV">
                     <IconImage path='/images/cv-file-interface-symbol-svgrepo-com.svg' name="CV"/>
-                </Box>
-                <Box href={personalInfo.socialMedia.Twitter} label="Twitter">
-                    <IconImage path='/images/icons8-twitter.svg' name="Twitter"/>
                 </Box>
                 <Box href={personalInfo.socialMedia.LinkedIn} label="LinkedIn">
                     <IconImage path='/images/icons8-linkedin.svg' name="LinkedIn"/>
