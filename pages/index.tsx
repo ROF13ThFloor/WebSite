@@ -9,7 +9,7 @@ import Education from '../components/Education';
 const Index: NextPage<unknown> = () => (
     <>
         <About/>
-        <PublicationList/>
+        {/* <PublicationList/> */}
         <Teaching/>
         <Education/>
     </>
