@@ -32,12 +32,19 @@
     "love": "https://harrypotter.fandom.com/wiki/James_and_Lily_Potter",
     "education": [
         {
-            "name": "The Auror Department(2007-2008, Visiting Scholar)",
-            "link": "https://harrypotter.fandom.com/wiki/British_Auror_Office"
+            "title": "Doctor of Philosophy - PhD",
+            "university": "KTH Royal Institute of Technology",
+            "link": "https://www.kth.se"
         },
         {
-            "name": "Hogwarts Primary University(1911-1988, Bachelor's in Magic)",
-            "link": "https://harrypotter.fandom.com/wiki/Hogwarts_School_of_Witchcraft_and_Wizardry"
+            "title": "Master of Science - MS , Information Technology ",
+            "university": "Sharif University of Technology",
+            "link": "https://en.sharif.ir"
+        },
+        {
+            "title": "Bachelor of Science - BS, Computer Engineering",
+            "university": "K. N. Toosi University of Technology",
+            "link": "https://en.kntu.ac.ir"
         }
     ]
 
