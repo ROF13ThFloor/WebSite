@@ -2,6 +2,7 @@ import {ReactNode} from 'react';
 import ExtLink from './ExtLink';
 import IconImage from './IconImage';
 import personalInfo from './data/personalInfo.json';
+import ReactGA from "react-ga4";
 
 interface BoxProps {
     href: string;
@@ -10,16 +11,33 @@ interface BoxProps {
     children: ReactNode;
 }
 
-const Box = ({href, label, onClick, children}: BoxProps) => (
-    <a target="_blank"
-        rel="noopener noreferrer"
-        href={href}
-        aria-label={label}
-        className="items-center justify-center cursor-pointer transition-transform transform hover:scale-110 hover:bg-gray-200 rounded-md w-10 h-10"
-        onClick={onClick}>
-        {children}
-    </a>
-);
+const Box = ({ href, label, onClick, children }: BoxProps) => {
+    const handleClick = () => {
+        if (href.startsWith("mailto:")) {
+            ReactGA.event({
+                category: "Email",
+                action: "Click",
+                label: href,  // Track the email address
+            });
+        }
+        if (onClick) {
+            onClick();
+        }
+    };
+
+    return (
+        <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={href}
+            aria-label={label}
+            className="items-center justify-center cursor-pointer transition-transform transform hover:scale-110 hover:bg-gray-200 rounded-md w-10 h-10"
+            onClick={handleClick}
+        >
+            {children}
+        </a>
+    );
+};
 
 const SupportingBox = (): JSX.Element => {
     return (
