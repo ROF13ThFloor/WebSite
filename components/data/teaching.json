@@ -1,11 +1,21 @@
 [
     {
-        "id": "MG101",
-        "name": "Introduction to magic"
+        "id": "DD2395",
+        "name": "Computer Security"
     },
     {
-        "id": "MG102",
-        "name": "Defense against the dark arts spells"
+        "id": "DD2525",
+        "name": "Language-Based Security"
+    },
+
+    {
+        "id": "DD1386",
+        "name": "Internet Programming"
+    }, 
+    {
+        "id": "DD1310",
+        "name": "Programming Techniques"
     }
+
 
 ]

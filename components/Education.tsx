@@ -10,8 +10,11 @@ const Education = (): JSX.Element => {
                 {
                     data.education.map((education, index) => (
                         <li key={index} className="hover:text-blue-600 transition-all duration-300">
-                            
-                           <ExtLink href={education.link} className="font-semibold"> {education.title} - {education.university} </ExtLink>
+                        <ExtLink href={education.link}>
+                            <span className="font-semibold">
+                            {education.title} - {education.university}
+                         </span>
+                        </ExtLink>
                         </li>
                     ))
                 }
