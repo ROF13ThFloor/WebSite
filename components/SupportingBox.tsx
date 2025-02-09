@@ -13,11 +13,12 @@ interface BoxProps {
 
 const Box = ({ href, label, onClick, children }: BoxProps) => {
     const handleClick = () => {
+        console.log("Email Clicked:", href);    
         if (href.startsWith("mailto:")) {
             ReactGA.event({
                 category: "Email",
                 action: "Click",
-                label: href,  // Track the email address
+                label: href,  
             });
         }
         if (onClick) {
@@ -46,9 +47,9 @@ const SupportingBox = (): JSX.Element => {
                 <Box href="mailto:moazen@kth.se" label="Email">
                     <IconImage path="/images/email.svg" name="Email" />
                 </Box>
-                <Box href="/cv.pdf" label="CV">
+                {/* <Box href="/cv.pdf" label="CV">
                     <IconImage path='/images/cv-file-interface-symbol-svgrepo-com.svg' name="CV"/>
-                </Box>
+                </Box> */}
                 <Box href={personalInfo.socialMedia.Github} label="github">
                     <IconImage path='/images/github.svg' name="github"/>
                 </Box>
