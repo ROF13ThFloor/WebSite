@@ -12,7 +12,8 @@ const IconImage = ({path, name}: Props): JSX.Element => {
                 draggable={false}
                 alt={name}
                 width={35}
-                height={35}/>
+                height={35}
+                unoptimized/>
         </abbr>
     );
 };

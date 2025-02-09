@@ -9,7 +9,7 @@ const ProjectList = (): JSX.Element => {
                 {data.map((project, index) => (
                     <ProjectItem project={project} index={index}/>
                 ))}
-            </div>
+            </div>  
         </section>
         
     );

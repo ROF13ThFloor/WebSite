@@ -1,25 +1,54 @@
 [
     {
-        "title": "Quidditch Seeker SDK",
-        "description": "A tool help you practice Quidditch Cup Champion",
-        "img": "/images/projects/rules.png"
+        "title": "ELFInspect",
+        "description": "ELFInspect is a binary analysis tool for ELF files, offering features such as ELF header parsing, disassembly, control flow graph generation, and syscall pattern detection.",
+        "img": "/images/projects/ElF.png",
+        "link": "https://github.com/ROF13ThFloor/ELFInspect"
     },
 
     {
-        "title": "Quidditch Seeker Tool",
-        "description": "A tool help you win Quidditch Cup Champion",
-        "img": "/images/projects/quidditch.png"
+        "title": "MedAccess-Control",
+        "description": "The MedAccess-Control project is a simulation of mandatory access control (MAC) in a hospital setting.",
+        "img": "/images/projects/Med.png",
+        "link": "https://github.com/ROF13ThFloor/MedAccess-Control"
+    },
+    {
+        "title": "KeyCrack",
+        "description": "KeyCrack is a cryptographic analysis tool that demonstrates vulnerabilities in RSA and Simplified DES (SDES), including Low Exponent and Common Factor attacks. Built using SageMath, it provides practical insights into cryptographic weaknesses for educational and research purposes.",
+        "img": "/images/projects/1.png",
+        "link": "https://github.com/ROF13ThFloor/KeyCrack"
+    },
+    {
+        "title": "GrammaLex",
+        "description": "A Java-based compiler prototype that performs lexical and syntactic analysis using NFA, DFA, and LL(1) parsing approaches.",
+        "img": "/images/projects/1.png",
+        "link": "https://github.com/ROF13ThFloor/GrammaLex"
     },
 
     {
-        "title": "Quidditch Seeker SDK",
-        "description": "A tool help you practice Quidditch Cup Champion",
-        "img": "/images/projects/rules.png"
-    },
-
-    {
-        "title": "Quidditch Seeker Tool",
-        "description": "A tool help you win Quidditch Cup Champion",
-        "img": "/images/projects/quidditch.png"
+        "title": "RAIDMaster",
+        "description": "A set of Bash scripts to automate the creation, configuration, and testing of RAID 0+5 arrays and Virtual Hard Disks (VHDs) on Linux systems. The scripts simplify the process of setting up storage configurations, ensuring performance and redundancy.",
+        "img": "/images/projects/1.png",
+        "link": "https://github.com/ROF13ThFloor/RAIDMaster"
     }
+    ,
+    {
+        "title": "RCSS2D-AutoTest-Toolkit",
+        "description": "A testing framework designed for automating and validating functionalities in the RoboCup Soccer Simulation 2D (RCSS2D) environment",
+        "img": "/images/projects/1.png",
+        "link": "https://github.com/ROF13ThFloor/RCSS2D-AutoTest-Toolkit"
+    },
+    {
+        "title": "PathFinderFX",
+        "description": "A JavaFX-based application for visualizing and analyzing paths between street corners using depth-first search (DFS). Users can input street connections, visualize potential routes, and analyze connectivity with an interactive graphical interface.",
+        "img": "/images/projects/1.png",
+        "link": "https://github.com/ROF13ThFloor/PathFinderFX"
+    },
+    {
+        "title": "Stripe-CheckOut",
+        "description": "A tool to integrate Django and Mongodb with stripe subscribe service.",
+        "img": "/images/projects/1.png",
+        "link": "https://github.com/ROF13ThFloor/Stripe-CheckOut"
+    }
+  
 ]

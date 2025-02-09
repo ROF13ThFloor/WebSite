@@ -5,7 +5,7 @@ const Education = (): JSX.Element => {
     return (
         <section className="grid" id="education">
             <h2 className="text-xl font-bold mt-12 mb-4">Education</h2>
-            <p className = "text-lg text-gray-700 ml-6 list-disc space-y-2">
+            <ul className = "text-lg text-gray-700 ml-6 list-disc space-y-2">
 
                 {
                     data.education.map((education, index) => (
@@ -15,7 +15,7 @@ const Education = (): JSX.Element => {
                         </li>
                     ))
                 }
-            </p>
+            </ul>
         </section>
     );
 };

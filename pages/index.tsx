@@ -11,7 +11,7 @@ const Index: NextPage<unknown> = () => (
     <>
         <About/>
         <Story/>
-        {/* <PublicationList/> */}
+        <PublicationList/>
         
         <Education/>
         <Teaching/>
