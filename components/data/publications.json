@@ -1,72 +1,9 @@
 [
 	{
-		"id": 5,
-		"author": "P.Harry, A.Dumbledor",
-		"title": "Towards Generalized Defensing Against the Dark Arts Spells",
-		"conference": "In Proc of ACM Conference of Magic, Hogwarts Owlery, England.",
-		"links": [
-			{
-				"name": "pdf",
-				"url": ""
-			},
-			{
-				"name": "slides",
-				"url": ""
-			},
-			{
-				"name": "video",
-				"url": ""
-			}
-		]
-	},
-
-	{
-		"id": 4,
-		"author": "P.Harry, A.Dumbledor",
-		"title": "Rethinking Defensing Against the Dark Arts Spells",
-		"conference": "In Proc of ACM Conference of Magic, Hogwarts Owlery, England.",
-		"links": [
-			{
-				"name": "pdf",
-				"url": ""
-			},
-			{
-				"name": "slides",
-				"url": ""
-			},
-			{
-				"name": "video",
-				"url": ""
-			}
-		]
-	},
-
-	{
-		"id": 3,
-		"author": "P.Harry, A.Dumbledor",
-		"title": "Pushing the Limits of Defensing Against the Dark Arts Spells",
-		"conference": "In Proc of ACM Conference of Magic, Hogwarts Owlery, England.",
-		"links": [
-			{
-				"name": "pdf",
-				"url": ""
-			},
-			{
-				"name": "slides",
-				"url": ""
-			},
-			{
-				"name": "video",
-				"url": ""
-			}
-		]
-	},
-
-	{
 		"id": 2,
-		"author": "P.Harry, A.Dumbledor",
-		"title": "Defensing Against the Dark Arts Spells based on Reductor Curse",
-		"conference": "In Proc of ACM Conference of Magic, Hogwarts Owlery, England.",
+		"author": "M.Moazen, N.Paladi, A.J.Ahsan, M.balliu",
+		"title": "TAPShield: Securing Trigger-Action Platforms against Strong Attackers",
+		"conference": "10th IEEE European Symposium on Security and Privacy (2025)",
 		"links": [
 			{
 				"name": "pdf",
@@ -80,27 +17,26 @@
 				"name": "video",
 				"url": ""
 			}
+			,
+			{
+				"name": "video",
+				"url": ""
+			}
 		]
 	},
-
+	
 	{
 		"id": 1,
-		"author": "P.Harry, A.Dumbledor",
-		"title": "A Survey of Defensing Against the Dark Arts Spells",
-		"conference": "In Proc of ACM Conference of Magic, Hogwarts Owlery, England.",
+		"author": "M.Teimouri, A.Sadreddin, M.Moazen, A.Sadraii",
+		"title": "ARAS Team Description for RoboCup 2021",
+		"conference": "RoboCup Soccer Simulation 2021",
 		"links": [
 			{
 				"name": "pdf",
-				"url": ""
-			},
-			{
-				"name": "slides",
-				"url": ""
-			},
-			{
-				"name": "video",
-				"url": ""
+				"url": "https://archive.robocup.info/Soccer/Simulation/2D/TDPs/RoboCup/2021/ARAS_SS2D_RC2021_TDP.pdf"
 			}
 		]
 	}
+
+
 ]

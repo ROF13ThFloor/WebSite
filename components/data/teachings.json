@@ -1,0 +1,43 @@
+[
+    {
+        "courseID": "DD2395",
+        "course": {
+            "name": "Computer Security",
+            "teachername": " Musard Balliu",
+            "teacherlink": "https://people.kth.se/~musard/",
+            "courselink": "https://www.kth.se/student/kurser/kurs/DD2395?l=en"
+        },
+        "date": "Fall 2023, Fall 2024"
+    },
+
+    {
+        "courseID": "DD2391",
+        "course": {
+            "name": "Cybersecurity Overview",
+            "teachername": " Musard Balliu ",
+            "teacherlink": "https://people.kth.se/~musard/",
+            "courselink": "https://www.kth.se/student/kurser/kurs/DD2395?l=en"
+        },
+        "date": "Fall 2023, Fall 2024"
+    },
+    {
+        "courseID": "DD2525",
+        "course": {
+            "name": "Language-Based Security",
+            "teachername": " Musard Balliu",
+            "teacherlink": "https://people.kth.se/~musard/",
+            "courselink": "https://www.kth.se/student/kurser/kurs/DD2525?l=en"
+        },
+        "date": "Spring 2024, Spring 2025"
+    },
+    {
+        "courseID": "DD1386",
+        "course": {
+            "name": "Internet Programming",
+            "teachername": " Vahid Mosavat",
+            "teacherlink": "https://www.kth.se/profile/vahid",
+            "courselink": "https://www.kth.se/student/kurser/kurs/DD1386"
+        },
+        "date": "Spring 2024, Spring 2025"
+    }
+]

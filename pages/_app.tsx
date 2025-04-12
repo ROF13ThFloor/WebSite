@@ -24,7 +24,7 @@ const App = ({Component, pageProps}: Readonly<AppProps>): JSX.Element => {
 				<meta property="og:locale" content="en_US"/>
 				<meta property="og:type" content="website"/>
 			</Head>
-			<div className="flex flex-col items-center justify-center h-screen text-center px-4">
+			{/* <div className="flex flex-col items-center justify-center h-screen text-center px-4">
         <img 
           src="https://cdn.dribbble.com/users/948499/screenshots/5407585/comp_1_3.gif" 
           alt="Maintenance Logo" 
@@ -36,12 +36,12 @@ const App = ({Component, pageProps}: Readonly<AppProps>): JSX.Element => {
         <p className="text-gray-600 dark:text-gray-400">
           
         </p>
-      </div>
-			{/* <Layout>
+      </div> */}
+			<Layout>
 				<main className="flex flex-col m-auto leading max-w-4xl items-start p-5">
 					<Component {...pageProps}/>
 				</main>
-			</Layout> */}
+			</Layout>
 		</ThemeProvider>
 	);
 };
