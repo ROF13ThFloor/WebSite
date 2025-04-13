@@ -9,7 +9,16 @@
         },
         "date": "Fall 2023, Fall 2024"
     },
-
+    {
+        "courseID": "DD2520",
+        "course": {
+            "name": "Applied Cryptography",
+            "teachername": " Douglas Wikström",
+            "teacherlink": "https://www.kth.se/profile/dog/",
+            "courselink": "https://www.kth.se/student/kurser/kurs/DD2520?l=en"
+        },
+        "date": "Spring 2024, Spring 2025"
+    },
     {
         "courseID": "DD2391",
         "course": {

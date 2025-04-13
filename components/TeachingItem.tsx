@@ -4,34 +4,68 @@ interface TeachingItemProps {
     course:any;
 }
 
-const TeachingItem =  ({ course }: TeachingItemProps):JSX.Element => {
+const KTHTeachingItem = ({ course }: TeachingItemProps): JSX.Element => {
     return (
-        <div className="teaching-item bg-white dark:bg-gray-800" style={styles.container} >
+        <div className="teaching-item bg-white dark:bg-gray-800" style={styles.container}>
             <div style={styles.header}>
-                <a 
-                    href={course.course.courselink} 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
+                <a
+                    href={course.course.courselink}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={styles.courseLink}
                 >
                     {course.course.name} ({course.courseID})
                 </a>
-            </div>
-            <div style={styles.details} >
-                <span>by </span>
-                <a 
-                    href={course.course.teacherlink} 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    style={styles.teacherLink}
-                >
-                    {course.course.teachername}
-                </a>
-                <span> - {course.date}</span>
+                <span style={styles.details}>
+                    {" "}by{" "}
+                    <a
+                        href={course.course.teacherlink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={styles.teacherLink}
+                    >
+                        {course.course.teachername}
+                    </a>
+                    {" "} - {course.date}
+                </span>
             </div>
         </div>
     );
 };
+
+const SharifTeachingItem = ({ course }: TeachingItemProps): JSX.Element => {
+    return (
+        <div className="teaching-item bg-white dark:bg-gray-800" style={styles.container}>
+            <div style={styles.header}>
+                <a
+                    href={course.course.courselink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={styles.courseLink}
+                >
+                    {course.course.name}
+                </a>
+                <span style={styles.details}>
+                    {" "}by{" "}
+                    <a
+                        href={course.course.teacherlink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={styles.teacherLink}
+                    >
+                        {course.course.teachername}
+                    </a>
+                    {" "} - {course.date}
+                </span>
+            </div>
+            {/* <div style={styles.details}><p>{course.course.description}</p>
+                </div> */}
+        </div>
+    );
+};
+
+
+
 
 const styles = {
     container: {
@@ -62,4 +96,4 @@ const styles = {
     },
 };
 
-export default TeachingItem;
+export { KTHTeachingItem, SharifTeachingItem };

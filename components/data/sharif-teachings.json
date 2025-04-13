@@ -1,11 +1,24 @@
 [
+    
+    {
+        "courseID": "",
+        "course": {
+            "name": "Database Design",
+            "teachername": "Morteza Amini",
+            "teacherlink": "https://sharif.edu/~amini/",
+            "courselink": "http://ise.ce.sharif.ir/db-course/",
+            "description":" This course covers the principles of database design, including data modeling, normalization, and SQL query optimization. Students will learn how to design efficient and scalable databases for various applications."
+        },
+        "date": "Fall 2022"
+    },
     {
         "courseID": "",
         "course": {
             "name": "Computer Workshop Instructor",
             "teachername": " Hamid Zarrabi-Zadeh",
             "teacherlink": "https://sharif.edu/~zarrabi/",
-            "courselink": "https://computerworkshop.netlify.app/git"
+            "courselink": "https://computerworkshop.netlify.app/git",
+            "description":" Teaching course syllabus to first-year students. The syllabus contains essential computer science topics, such as network, git,Linux, and web programming(backend and frontend)."
         },
         "date": "Fall 2021"
     }, 
@@ -15,17 +28,8 @@
             "name": "Software Testing",
             "teachername": " Seyed-Hassan Mirian-Hosseinabadi",
             "teacherlink": "https://sharif.ir/~hmirian/biography.html",
-            "courselink": ""
-        },
-        "date": "Fall 2022"
-    },
-    {
-        "courseID": "",
-        "course": {
-            "name": "Database Design",
-            "teachername": "Morteza Amini",
-            "teacherlink": "https://sharif.edu/~amini/",
-            "courselink": "http://ise.ce.sharif.ir/db-course/"
+            "courselink": "",
+            "description":" This course covers the principles of database design, including data modeling, normalization, and SQL query optimization. Students will learn how to design efficient and scalable databases for various applications."
         },
         "date": "Fall 2022"
     }
