@@ -1,6 +1,6 @@
 [
 	{
-		"id": 2,
+		"id": 1,
 		"author": "M.Moazen, N.Paladi, A.J.Ahsan, M.balliu",
 		"title": "TAPShield: Securing Trigger-Action Platforms against Strong Attackers",
 		"conference": "10th IEEE European Symposium on Security and Privacy (2025)",
@@ -24,9 +24,42 @@
 			}
 		]
 	},
+	{
+		"id": 2,
+		"author": "M.Moazen, M.Amini",
+		"title": "Performance Improvement of Repackaged Android Application Detection Techniques",
+		"conference": "Master’s thesis, Supervisor: Morteza Amini, Opponent: Hamidreza Shahriari Kah Keshi, Sharif University of Technology, Iran (2023)",
+		"links": [
+			{
+				"name": "pdf In Farsi",
+				"url": "https://github.com/ROF13ThFloor/Graduation-Materials/blob/master/Msc's%20material/thesis.pdf"
+			},
+			{
+				"name": "slides In English",
+				"url": "https://github.com/ROF13ThFloor/Graduation-Materials/blob/master/Msc's%20material/ThesisPresentation.pdf"
+			}
+		]
+	},
 	
 	{
-		"id": 1,
+		"id": 3,
+		"author": "M.Moazen, S.Seddighian Kashi",
+		"title": "Implementation of Required Test Cases in RCSS2D based on Continuous Integration Approach",
+		"conference": "bachelor's thesis, Supervisor: Saeid Seddighian Kashi, Opponent: Mehdi Esnaashari, K.N.T University of Technology, Iran (2021)",
+		"links": [
+			{
+				"name": "pdf In Farsi",
+				"url": "https://github.com/ROF13ThFloor/Graduated-Materials/blob/master/Bsc's%20Materials/thesis.pdf"
+			},
+			{
+				"name": "slides In English",
+				"url": "https://slides.com/mojtabam722/deck-06680a"
+			}
+		]
+	},
+
+	{
+		"id": 4,
 		"author": "M.Teimouri, A.Sadreddin, M.Moazen, A.Sadraii",
 		"title": "ARAS Team Description for RoboCup 2021",
 		"conference": "RoboCup Soccer Simulation 2021",
