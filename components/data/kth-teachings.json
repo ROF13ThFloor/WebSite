@@ -18,7 +18,7 @@
             "teacherlink": "https://people.kth.se/~musard/",
             "courselink": "https://www.kth.se/student/kurser/kurs/DD2395?l=en"
         },
-        "date": "Fall 2023, Fall 2024"
+        "date": "Fall 2024"
     },
     {
         "courseID": "DD2525",
@@ -38,6 +38,17 @@
             "teacherlink": "https://www.kth.se/profile/vahid",
             "courselink": "https://www.kth.se/student/kurser/kurs/DD1386"
         },
-        "date": "Spring 2024, Spring 2025"
+        "date": "Spring 2025"
+    },
+
+    {
+        "courseID": "DD1310",
+        "course": {
+            "name": "Programming Techniques",
+            "teachername": " Vahid Mosavat",
+            "teacherlink": "https://www.kth.se/profile/vahid",
+            "courselink": "https://www.kth.se/student/kurser/kurs/DD1310"
+        },
+        "date": "Fall 2024"
     }
 ]

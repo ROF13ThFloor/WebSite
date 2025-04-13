@@ -10,6 +10,7 @@ const PublicationList = (): JSX.Element => {
                 <PublicationItem publication={publication} index={index} key={index}/>
               ))}
             </div>
+            
 
         </section>
     );

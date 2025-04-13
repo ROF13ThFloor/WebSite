@@ -1,3 +1,5 @@
+const { body } = require("framer-motion/client");
+
 module.exports = {
 	mode: 'jit',
 	purge: {
@@ -12,7 +14,7 @@ module.exports = {
 	theme: {
 		extend: {},
 		fontFamily: {
-			sans: ['Inter', 'sans-serif'],
+			sans: ['Roboto Condensed','Inter', 'sans-serif'],
 		},
 	},
 	variants: {

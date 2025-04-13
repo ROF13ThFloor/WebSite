@@ -34,19 +34,15 @@ const Header = ({mounted, resolvedTheme, setTheme, scrolled}: HeaderProps): JSX.
                         onClick={() => {
                             setTheme(resolvedTheme === 'light' ? 'dark' : 'light');
                         }}>
+                        {mounted && (
                         <abbr title="Switch theme">
                             {resolvedTheme === 'light' ? (
-                                <Moon
-                                    size={22}
-                                    aria-label="Moon"
-                                />
+                                <Moon size={22} aria-label="Moon" />
                             ) : (
-                                <Sun
-                                    size={22}
-                                    aria-label="Sun"
-                                />
+                                <Sun size={22} aria-label="Sun" />
                             )}
                         </abbr>
+                                )}
                     </button>
                 </nav>
             </div>
