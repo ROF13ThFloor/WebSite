@@ -22,7 +22,7 @@ const ProjectItem = ({ project, index }: ProjectProps): JSX.Element => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         whileHover={{ scale: 1.1 }}
-        transition={{ duration: 0.1, ease: "easeInOut" }}
+        transition={{ duration: 0.05, ease: "easeInOut" }}
         className="mt-4 mb-8 p-4 rounded-lg shadow-md hover:shadow-xl transition-transform 
         bg-white dark:bg-gray-900 cursor-pointer"
       >
