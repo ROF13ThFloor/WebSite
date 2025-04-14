@@ -16,11 +16,7 @@ return(
             </p>
             </div>
 
-        </section>
-
-
-
-    
+        </section>    
 );
 };
 
