@@ -7,7 +7,7 @@ interface TeachingItemProps {
 const KTHTeachingItem = ({ course }: TeachingItemProps): JSX.Element => {
     return (
         <div className="teaching-item bg-white dark:bg-gray-800" style={styles.container}>
-            <div style={styles.header}>
+            <div style={{ ...styles.header, marginBottom: '1px', marginTop: '1px' }}>
                 <a
                     href={course.course.courselink}
                     target="_blank"
@@ -36,7 +36,7 @@ const KTHTeachingItem = ({ course }: TeachingItemProps): JSX.Element => {
 const SharifTeachingItem = ({ course }: TeachingItemProps): JSX.Element => {
     return (
         <div className="teaching-item bg-white dark:bg-gray-800" style={styles.container}>
-            <div style={styles.header}>
+            <div style={{ ...styles.header, marginBottom: '1px', marginTop: '1px' }}>
                 <a
                     href={course.course.courselink}
                     target="_blank"
