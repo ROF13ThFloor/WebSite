@@ -19,11 +19,11 @@
 		"links": [
 			{
 				"name": "pdf In Farsi",
-				"url": "https://github.com/ROF13ThFloor/Graduation-Materials/blob/master/Msc's%20material/thesis.pdf"
+				"url": "/papers/mscthesis.pdf"
 			},
 			{
 				"name": "slides In English",
-				"url": "https://github.com/ROF13ThFloor/Graduation-Materials/blob/master/Msc's%20material/ThesisPresentation.pdf"
+				"url": "/papers/mscThesisPresentation.pdf"
 			}
 		]
 	},
@@ -36,7 +36,7 @@
 		"links": [
 			{
 				"name": "pdf In Farsi",
-				"url": "https://github.com/ROF13ThFloor/Graduated-Materials/blob/master/Bsc's%20Materials/thesis.pdf"
+				"url": "/papers/bscthesis.pdf"
 			},
 			{
 				"name": "slides In English",
