@@ -14,13 +14,13 @@
 
     {
         "title": "MedAccess-Control",
-        "description": "The MedAccess-Control project is a simulation of mandatory access control (MAC) in a hospital setting.",
+        "description": "The MedAccess-Control project is a simulation of mandatory access control (MAC) in a simulated hospital setting.",
         "img": "/images/projects/Med.png",
         "link": "https://github.com/ROF13ThFloor/MedAccess-Control"
     },
     {
         "title": "KeyCrack",
-        "description": "KeyCrack is a cryptographic analysis tool that demonstrates vulnerabilities in RSA and Simplified DES (SDES), including Low Exponent and Common Factor attacks. Built using SageMath, it provides practical insights into cryptographic weaknesses for educational and research purposes.",
+        "description": "KeyCrack is a cryptographic educational analysis tool that demonstrates vulnerabilities in RSA and Simplified DES (SDES), including Low Exponent and Common Factor attacks. Built using SageMath, it provides practical insights into cryptographic weaknesses for educational and research purposes.",
         "img": "/images/projects/1.png",
         "link": "https://github.com/ROF13ThFloor/KeyCrack"
     },
