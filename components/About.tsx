@@ -15,7 +15,7 @@ const About = (): JSX.Element => {
 					<h1 className="text-4xl font-bold pb-8 md:pb-0">{personalInfo.name}</h1>
 					<p>
 					A PhD student at  <ExtLink href= {personalInfo.about.university.link}>{personalInfo.about.university.name} </ExtLink>
-					 passionate about software security, software supply chains, and software automation.
+					 passionate about software automation and software supply chains.
 						
 						 <br/><a className = "text-sm">✉️ {personalInfo.about.email}</a>
 					</p>
