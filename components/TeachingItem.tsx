@@ -26,7 +26,10 @@ const KTHTeachingItem = ({ course }: TeachingItemProps): JSX.Element => {
                     >
                         {course.course.teachername}
                     </a>
-                    {" "}- {course.date}
+                    {" "}-
+                </span>
+                <span className="text-xs font-medium text-slate-400 dark:text-slate-500">
+                    {course.date}
                 </span>
             </div>
         </div>
@@ -55,7 +58,10 @@ const SharifTeachingItem = ({ course }: TeachingItemProps): JSX.Element => {
                     >
                         {course.course.teachername}
                     </a>
-                    {" "}- {course.date}
+                    {" "}-
+                </span>
+                <span className="text-xs font-medium text-slate-400 dark:text-slate-500">
+                    {course.date}
                 </span>
             </div>
         </div>

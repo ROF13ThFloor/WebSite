@@ -7,7 +7,7 @@
             "teacherlink": "https://people.kth.se/~musard/",
             "courselink": "https://www.kth.se/student/kurser/kurs/DD2395?l=en"
         },
-        "date": "Fall 2023, Fall 2024"
+        "date": "Fall 2023, Fall 2024, Fall 2025"
     },
     {
         "courseID": "DD2520",
@@ -27,7 +27,7 @@
             "teacherlink": "https://people.kth.se/~musard/",
             "courselink": "https://www.kth.se/student/kurser/kurs/DD2395?l=en"
         },
-        "date": "Fall 2024"
+        "date": "Fall 2024, Fall 2025"
     },
     {
         "courseID": "DD2525",
@@ -37,7 +37,7 @@
             "teacherlink": "https://people.kth.se/~musard/",
             "courselink": "https://www.kth.se/student/kurser/kurs/DD2525?l=en"
         },
-        "date": "Spring 2024, Spring 2025"
+        "date": "Spring 2024, Spring 2025, Spring 2026"
     },
     {
         "courseID": "DD1386",
@@ -47,7 +47,7 @@
             "teacherlink": "https://www.kth.se/profile/vahid",
             "courselink": "https://www.kth.se/student/kurser/kurs/DD1386"
         },
-        "date": "Spring 2025"
+        "date": "Spring 2025, Spring 2026"
     },
 
     {
