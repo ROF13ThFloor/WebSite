@@ -7,46 +7,35 @@ interface ProjectProps {
     description: string;
     link: string;
   };
-  index: number;
 }
 
-const ProjectItem = ({ project, index }: ProjectProps): JSX.Element => {
+const ProjectItem = ({ project }: ProjectProps): JSX.Element => {
   return (
-    <a
-      href={project.link}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="block"
+    <motion.article
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      whileHover={{ y: -4 }}
+      transition={{ duration: 0.2, ease: "easeInOut" }}
+      className="group rounded-3xl border border-black/10 bg-white/70 p-6 shadow-[0_18px_40px_rgba(0,0,0,0.08)] transition hover:border-black/20 hover:shadow-[0_28px_60px_rgba(0,0,0,0.12)] dark:border-white/10 dark:bg-white/5"
     >
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        whileHover={{ scale: 1.1 }}
-        transition={{ duration: 0.05, ease: "easeInOut" }}
-        className="mt-4 mb-8 p-4 rounded-lg shadow-md hover:shadow-xl transition-transform 
-        bg-white dark:bg-gray-900 cursor-pointer"
-      >
-        <div className="w-full bg-gray-50 dark:bg-gray-800 p-3 rounded-lg">
-          {/* Clickable & formatted title */}
-          <a
-            href={project.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-800 dark:text-gray-200 font-semibold  font-bold hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
-          >
+      <div className="flex items-start justify-between gap-4">
+        <ExtLink href={project.link}>
+          <span className="text-lg font-semibold text-slate-900 transition group-hover:text-black dark:text-white">
             {project.title}
-          </a>
-          <p className="text-gray-600 dark:text-gray-400 text-sm mt-2">
-            {project.description}
-          </p>
-          <p className = "text-gray-500 flex justify-end text-sm bold">
-                
-                    <ExtLink href={project.link}>[Source Code] &nbsp;</ExtLink>
-                              
-            </p>
-        </div>
-      </motion.div>
-    </a>
+          </span>
+        </ExtLink>
+        <span className="rounded-full border border-black/10 bg-black/5 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-slate-500 dark:border-white/10 dark:bg-white/10 dark:text-slate-300">
+          Project
+        </span>
+      </div>
+      <p className="mt-3 text-sm leading-relaxed text-slate-600 dark:text-slate-300">
+        {project.description}
+      </p>
+      <div className="mt-5 flex items-center justify-between">
+        <ExtLink href={project.link}>Source Code</ExtLink>
+        <span className="text-xs text-slate-400">Open source</span>
+      </div>
+    </motion.article>
   );
 };
 

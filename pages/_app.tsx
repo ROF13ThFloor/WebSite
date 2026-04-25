@@ -9,8 +9,6 @@ import GoogleTag from '../components/GoogleTag';
 import 'tailwindcss/tailwind.css';
 
 const App = ({Component, pageProps}: Readonly<AppProps>): JSX.Element => {
-	const {resolvedTheme} = useTheme();
-
 	return (
 		<ThemeProvider attribute="class">
 			<GoogleTag/>
@@ -38,7 +36,7 @@ const App = ({Component, pageProps}: Readonly<AppProps>): JSX.Element => {
         </p>
       </div> */}
 			<Layout>
-				<main className="flex flex-col m-auto leading max-w-4xl items-start p-5">
+				<main className="mx-auto flex w-full max-w-5xl flex-col px-6 pb-20 pt-4 md:px-10">
 					<Component {...pageProps}/>
 				</main>
 			</Layout>

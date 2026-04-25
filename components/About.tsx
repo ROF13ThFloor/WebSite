@@ -1,26 +1,35 @@
-import Image from 'next/image';
-
 import ExtLink from './ExtLink';
 import ProfileImage from './ProfileImage';
 import personalInfo from './data/personalInfo.json'
 
 const About = (): JSX.Element => {
 	return (
-		<section className="grid gap-12" id="about">
-			<div className="flex justify-between">
-				<div className="mr-8 hidden md:block rounded-md">
+		<section className="grid gap-10" id="about">
+			<div className="grid gap-10 md:grid-cols-[auto,1fr] md:items-center">
+				<div className="hidden md:block rounded-full border border-black/10 bg-white/70 p-3 shadow-[0_16px_40px_rgba(0,0,0,0.12)] dark:border-white/10 dark:bg-white/5">
 					<ProfileImage></ProfileImage>
 				</div>
-				<div className="flex flex-col max-w-xl w-full justify-evenly">
-					<h1 className="text-4xl font-bold pb-8 md:pb-0">{personalInfo.name}</h1>
-					<p>
-					A PhD student at  <ExtLink href= {personalInfo.about.university.link}>{personalInfo.about.university.name} </ExtLink>
-					 passionate about software automation and software supply chains.
-						
-						 <br/><a className = "text-sm">✉️ {personalInfo.about.email}</a>
+				<div className="flex flex-col gap-6">
+					<div className="flex flex-wrap items-center gap-3">
+						<span className="rounded-full border border-black/10 bg-white/70 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-slate-700 dark:border-white/10 dark:bg-white/5 dark:text-slate-200">
+							PhD Researcher
+						</span>
+						<span className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400">
+							Software Security
+						</span>
+					</div>
+					<h1 className="text-5xl font-serif font-semibold leading-tight tracking-tight text-slate-900 dark:text-white md:text-6xl">
+						{personalInfo.name}
+					</h1>
+					<p className="max-w-2xl text-lg leading-relaxed text-slate-700 dark:text-slate-300">
+						PhD student at <ExtLink href={personalInfo.about.university.link}>{personalInfo.about.university.name}</ExtLink>,
+						 focused on software automation and the software supply chain.
 					</p>
-				
-					
+					<div className="flex flex-wrap items-center gap-3">
+						<span className="inline-flex items-center rounded-full border border-black/10 bg-white/70 px-4 py-1 text-sm font-medium text-slate-700 shadow-sm dark:border-white/10 dark:bg-white/5 dark:text-slate-200">
+							Email: {personalInfo.about.email}
+						</span>
+					</div>
 				</div>
 			</div>
 		</section>

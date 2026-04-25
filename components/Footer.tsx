@@ -1,14 +1,16 @@
-import personalInfo from './data/personalInfo.json';
 import SupportingBox from './SupportingBox';
 
 
 const Footer = (): JSX.Element => {
-    const iconStyle = "hover:bg-gray-300 dark:hover:bg-gray-600 p-1 rounded-md";
-
     return (
-        <footer>
-            <div className="mb-9 pb-0 pl-6 max-w-4xl flex items-center justify-between text-sm opacity-60 m-auto pt-20 pr-5">
-                {/* <p> &copy; {new Date().getFullYear()}. {personalInfo.copyright}</p> */}
+        <footer className="mt-16 border-t border-black/10 dark:border-white/10">
+            <div className="mx-auto flex max-w-5xl flex-col items-start justify-between gap-6 px-6 py-10 text-sm text-slate-500 md:flex-row md:items-center md:px-10">
+                <div>
+                    <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">Let's connect</p>
+                    <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
+                        Follow my work or say hello.
+                    </p>
+                </div>
                 <SupportingBox></SupportingBox>
             </div>
             

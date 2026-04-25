@@ -13,9 +13,8 @@ const NavLink = ({title, href}: Props): JSX.Element => {
 		<Link href={href}>
 			<button
 				type="button"
-				className={`rounded-lg no-underline flex h-8 mr-0 pr-5 pl-5 
-					items-center border-none cursor-pointer font-bold text-sm 
-					${router.asPath === href ? 'bg-black dark:bg-white text-white dark:text-black' : 'bg-auto'}`}>
+				className={`flex h-9 items-center rounded-full border px-4 text-xs font-semibold uppercase tracking-[0.12em] transition 
+					${router.asPath === href ? 'border-transparent bg-black text-white shadow-[0_6px_16px_rgba(0,0,0,0.18)] dark:bg-white dark:text-black' : 'border-black/10 text-slate-700 hover:border-black/30 hover:bg-black/5 dark:border-white/10 dark:text-slate-300 dark:hover:border-white/30 dark:hover:bg-white/10'}`}>
 				{title}
 			</button>
 		</Link>

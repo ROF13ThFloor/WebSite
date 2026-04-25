@@ -7,17 +7,19 @@ interface Props {
 
 const PublicationItem = ({publication, index}: Props): JSX.Element => {
     return (
-        <div className = "mt-4 mb-8 p-4 rounded-lg shadow-md hover:shadow-lg transition-transform transform hover:scale-105 bg-white dark:bg-gray-800">
-            <p className = "text-base text-gray-500">
-                [{index}] {publication.author} <b><i>{publication.title}</i></b><br/>
-                <a className = "text-sm">{publication.conference}</a>
+        <div className="rounded-3xl border border-black/10 bg-white/70 p-6 shadow-[0_12px_32px_rgba(0,0,0,0.08)] transition hover:border-black/20 hover:shadow-[0_20px_42px_rgba(0,0,0,0.12)] dark:border-white/10 dark:bg-white/5">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400">
+                Publication {index + 1}
             </p>
-            <p className = "text-gray-500 flex justify-end text-sm bold">
+            <p className="mt-3 text-base leading-relaxed text-slate-700 dark:text-slate-200">
+                {publication.author} <span className="font-semibold italic text-slate-900 dark:text-white">{publication.title}</span>
+            </p>
+            <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">{publication.conference}</p>
+            <div className="mt-4 flex flex-wrap items-center gap-3">
                 {publication.links.map((linkItem: any, idx: any) => (
-                    <ExtLink href={linkItem.url} key={idx}> [{linkItem.name}] &nbsp;</ExtLink>
-                ))}                
-            </p>
-            
+                    <ExtLink href={linkItem.url} key={idx}>{linkItem.name}</ExtLink>
+                ))}
+            </div>
         </div>
 
     );

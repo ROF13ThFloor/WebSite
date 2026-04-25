@@ -13,6 +13,7 @@ const IconImage = ({path, name}: Props): JSX.Element => {
                 alt={name}
                 width={35}
                 height={35}
+                className="transition dark:invert"
                 unoptimized/>
         </abbr>
     );

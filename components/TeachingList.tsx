@@ -5,23 +5,23 @@ import SharifTAs from './data/sharif-teachings.json';
 const TeachingList = (): JSX.Element => {
     return (
         <section className="w-full" id="publications">
-            <div className="flex items-center mt-10 mb-4">
-                <h2 className="text-xl font-bold text-center mr-2">KTH Royal Institute of Technology</h2>
-                <img src="/images/kth.png" alt="" className="h-8 w-8 rounded-full" />
+            <div className="mt-10 flex items-center gap-3">
+                <h2 className="text-2xl font-serif font-semibold tracking-tight text-slate-900 dark:text-white">KTH Royal Institute of Technology</h2>
+                <img src="/images/kth.png" alt="" className="h-8 w-8 rounded-full border border-black/10 dark:border-white/10" />
             </div>
-            <ul className="list-disc pl-5">
+            <ul className="mt-5 space-y-4">
                 {KTHTAs.map((course, index) => (
                     <li key={index}>
                         <KTHTeachingItem course={course} />
                     </li>
                 ))}
             </ul>
-            <div className="flex items-center mt-10 mb-4">
-                <h2 className="text-xl font-bold text-center mr-2">Sharif University of Technology</h2>
-                <img src="/images/sharif.png" alt="" className="h-8 w-8 rounded-full" />
+            <div className="mt-12 flex items-center gap-3">
+                <h2 className="text-2xl font-serif font-semibold tracking-tight text-slate-900 dark:text-white">Sharif University of Technology</h2>
+                <img src="/images/sharif.png" alt="" className="h-8 w-8 rounded-full border border-black/10 dark:border-white/10" />
             </div>
             
-            <ul className="list-disc pl-5">
+            <ul className="mt-5 space-y-4">
                 {SharifTAs.map((course, index) => (
                     <li key={index}>
                         <SharifTeachingItem course={course} />

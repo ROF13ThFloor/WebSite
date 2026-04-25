@@ -6,27 +6,27 @@ interface TeachingItemProps {
 
 const KTHTeachingItem = ({ course }: TeachingItemProps): JSX.Element => {
     return (
-        <div className="teaching-item bg-white dark:bg-gray-800" style={styles.container}>
-            <div style={{ ...styles.header, marginBottom: '1px', marginTop: '1px' }}>
+        <div className="rounded-2xl border border-black/10 bg-white/70 px-5 py-4 shadow-sm transition hover:border-black/20 hover:shadow-md dark:border-white/10 dark:bg-white/5">
+            <div className="flex flex-wrap items-center gap-2 text-base font-semibold text-slate-800 dark:text-slate-100">
                 <a
                     href={course.course.courselink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    style={styles.courseLink}
+                    className="text-slate-900 transition hover:text-black dark:text-white"
                 >
                     {course.course.name} ({course.courseID})
                 </a>
-                <span style={styles.details}>
-                    {" "}by{" "}
+                <span className="text-sm font-medium text-slate-500 dark:text-slate-400">
+                    by{" "}
                     <a
                         href={course.course.teacherlink}
                         target="_blank"
                         rel="noopener noreferrer"
-                        style={styles.teacherLink}
+                        className="font-semibold text-slate-700 transition hover:text-black dark:text-slate-200"
                     >
                         {course.course.teachername}
                     </a>
-                    {" "} - {course.date}
+                    {" "}- {course.date}
                 </span>
             </div>
         </div>
@@ -35,65 +35,30 @@ const KTHTeachingItem = ({ course }: TeachingItemProps): JSX.Element => {
 
 const SharifTeachingItem = ({ course }: TeachingItemProps): JSX.Element => {
     return (
-        <div className="teaching-item bg-white dark:bg-gray-800" style={styles.container}>
-            <div style={{ ...styles.header, marginBottom: '1px', marginTop: '1px' }}>
+        <div className="rounded-2xl border border-black/10 bg-white/70 px-5 py-4 shadow-sm transition hover:border-black/20 hover:shadow-md dark:border-white/10 dark:bg-white/5">
+            <div className="flex flex-wrap items-center gap-2 text-base font-semibold text-slate-800 dark:text-slate-100">
                 <a
                     href={course.course.courselink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    style={styles.courseLink}
+                    className="text-slate-900 transition hover:text-black dark:text-white"
                 >
                     {course.course.name}
                 </a>
-                <span style={styles.details}>
-                    {" "}by{" "}
+                <span className="text-sm font-medium text-slate-500 dark:text-slate-400">
+                    by{" "}
                     <a
                         href={course.course.teacherlink}
                         target="_blank"
                         rel="noopener noreferrer"
-                        style={styles.teacherLink}
+                        className="font-semibold text-slate-700 transition hover:text-black dark:text-slate-200"
                     >
                         {course.course.teachername}
                     </a>
-                    {" "} - {course.date}
+                    {" "}- {course.date}
                 </span>
             </div>
-            {/* <div style={styles.details}><p>{course.course.description}</p>
-                </div> */}
         </div>
     );
 };
-
-
-
-
-const styles = {
-    container: {
-        border: '1px solid #ddd',
-        borderRadius: '8px',
-        padding: '16px',
-        marginBottom: '16px',
-        boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
-        transition: 'transform-transform',
-    },
-    header: {
-        fontSize: '18px',
-        fontWeight: 'bold',
-        marginBottom: '8px',
-    },
-    courseLink: {
-        color: '#0070f3',
-        textDecoration: 'none',
-    },
-    teacherLink: {
-        color: '#0070f3',
-        textDecoration: 'none',
-        fontWeight: 'bold',
-    },
-    details: {
-        fontSize: '14px',
-        
-    },
-};
-
 export { KTHTeachingItem, SharifTeachingItem };

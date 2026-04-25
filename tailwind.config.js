@@ -14,7 +14,8 @@ module.exports = {
 	theme: {
 		extend: {},
 		fontFamily: {
-			sans: ['Roboto Condensed','Inter', 'sans-serif'],
+			sans: ['Space Grotesk', 'Inter', 'sans-serif'],
+			serif: ['Fraunces', 'serif'],
 		},
 	},
 	variants: {
