@@ -8,7 +8,7 @@ const Footer = (): JSX.Element => {
                 <div>
                     <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">Let's connect</p>
                     <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
-                        Follow my work or say hello.
+
                     </p>
                 </div>
                 <SupportingBox></SupportingBox>
