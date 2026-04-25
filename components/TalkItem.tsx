@@ -27,7 +27,7 @@ const TalkItem = ({talk, index}: Props): JSX.Element => {
       <p className="mt-3 text-base leading-relaxed text-slate-700 dark:text-slate-200">
         <span className="font-semibold italic text-slate-900 dark:text-white">{talk.title}</span>
       </p>
-      <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">
+      <p className="mt-2 text-sm text-slate-500 dark:text-slate-300">
         {talk.event} · {talk.date} · {talk.location}
       </p>
       {talk.links && talk.links.length > 0 && (

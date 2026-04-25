@@ -3,9 +3,9 @@ import data from './data/publications.json'
 
 const PublicationList = (): JSX.Element => {
     return (
-        <section className="grid w-full" id="publications">
-            <h2 className="mt-12 text-2xl font-serif font-semibold tracking-tight text-slate-900 dark:text-white">Publications</h2>
-            <div className="mt-6 space-y-5">
+        <section className="grid w-full gap-6 pt-12" id="publications">
+            <h2 className="text-2xl font-serif font-semibold tracking-tight text-slate-900 dark:text-white">Publications</h2>
+            <div className="space-y-4">
               {data.map((publication, index) => (
                 <PublicationItem publication={publication} index={index} key={index}/>
               ))}
