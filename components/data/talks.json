@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Securing Software Supply Chains",
+    "event": "KTH Security Seminar",
+    "date": "2025-11-12",
+    "location": "Stockholm, Sweden",
+    "links": [
+      {
+        "name": "Slides",
+        "url": "https://example.com/talks/supply-chain-slides"
+      }
+    ]
+  }
+]

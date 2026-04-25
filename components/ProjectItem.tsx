@@ -20,7 +20,7 @@ const ProjectItem = ({ project }: ProjectProps): JSX.Element => {
     >
       <div className="flex items-start justify-between gap-4">
         <ExtLink href={project.link}>
-          <span className="text-lg font-semibold text-slate-900 transition group-hover:text-black dark:text-white">
+          <span className="text-lg font-semibold text-slate-900 transition group-hover:text-black dark:text-white dark:group-hover:text-white">
             {project.title}
           </span>
         </ExtLink>
